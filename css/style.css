@@ -1,0 +1,166 @@
+#navbar {
+    color: white;
+    background-color: #EF5350;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.span {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.links {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.links a {
+    color: white;
+}
+
+#mainheader {
+    padding-top: 320px;
+    padding-bottom: 320px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizza.jpeg');
+    color: white;
+    background-attachment: fixed;
+    font-family: Ubuntu;
+}
+
+#mainheader h1 {
+    font-size: 85px;
+}
+
+.menu-btn {
+    color: white;
+    border: 2px solid #B71C1C;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: Ubuntu;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 ;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    width: 100%;
+  }
+
+  .menu-btn:hover {
+    box-shadow: inset 0 100px 0 0 #B71C1C;
+    background-color: #B71C1C;
+    color: white;
+  }
+
+  #slogan {
+      background-color: #EF5350;
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  #about {
+    font-family: Ubuntu;
+    background-color: #B71C1C;
+    color: white;
+}
+
+.about-exp {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aboutimg {
+    background-image: url('../img/burgerimg.jpeg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: auto;
+}
+
+.aboutimg2 {
+    background-image: url('../img/soda.jpeg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: auto;
+}
+
+.about2 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+#menu-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Ubuntu;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/salad.jpeg');
+    background-attachment: fixed;
+}
+
+#menu-header h1 {
+    font-weight: bolder;
+    color: white;
+}
+
+#menu h3 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+  .image img {
+    width: 100%;
+}
+
+  #menu {
+      font-family: Ubuntu;
+      color: #B71C1C;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+
+  .menu-item {
+      color: white;
+      background-color: #B71C1C;
+      padding: 5px;
+  }
+
+  .menu-container {
+      padding: 20px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .size {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
+  .map iframe {
+      width: 100%;
+  }
+
+  #contact {
+      background-color: #FFEBEE;
+  }
+
+.contact-container1 {
+    padding: 20px;
+    background-color: white;
+    color: #B71C1C;
+}
+
+  .contact-container2 {
+      padding: 20px;
+      background-color: #B71C1C;
+      color: white;
+  }
