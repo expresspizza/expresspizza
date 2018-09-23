@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>XPRESS MENU</title>
+    <link rel="shortcut icon" type="image/png" href="img/mainlogo.jpg">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+<body>
+  <section id="navbar">
+    <div class="container">
+      <div class="w3-left span">
+        <h6>XPRESS PIZZA AND SUBS</h6>
+      </div>
+      <div class="w3-small w3-right links">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="index.html">HOME</a></li>
+          <li class="list-inline-item"><a href="menu.html">MENU</a></li>
+          <li class="list-inline-item"><a href="index.html #contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </section> 
+  <section id="menu">
+    <div class="container">
+      <h1 class="page-header text-center display-4">MENU</h1>
+         <div class="dropdown-btn-platform">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-lg btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    MENU
+                  </button>
+                  <div class="dropdown-menu">
+                    <h4 class="dropdown-item" onclick="pizza()">PIZZA</h4>
+                    <h4 class="dropdown-item" onclick="calzone()">CALZONE</h4>
+                    <h4 class="dropdown-item" onclick="wings()">WINGS</h4>
+                    <h4 class="dropdown-item" onclick="phillies()">PHILLIES</h4>
+                    <h4 class="dropdown-item" onclick="burgers()">BURGERS</h4>
+                    <h4 class="dropdown-item" onclick="submarines()">SUBMARINES</h4>
+                    <h4 class="dropdown-item" onclick="pita()">PITA</h4>
+                    <h4 class="dropdown-item" onclick="salads()">SALADS</h4>
+                    <h4 class="dropdown-item" onclick="sideOrders()">SIDE ORDERS</h4>
+                    <h4 class="dropdown-item" onclick="dessert()">DESSERT</h4>
+                    <h4 class="dropdown-item" onclick="beverages()">BEVERAGES</h4>
+                </div>
+              </div>
+         </div>
+      <div class="row">
+       <div class="col-md-4 menu-list">
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="specials()">SPECIALS</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="pizza()">PIZZA</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="calzone()">CALZONES</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="wings()">WINGS</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="phillies()">XPRESS PHILLIES</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="burgers()">BURGERS AND SANDWICHES</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="submarines()">SUBMARINE</div>
+          </center>
+         </div><div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="pita()">PITAS & WRAPS</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="salads()">SALADS</div>
+          </center>
+         </div><div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="sideOrders()">SIDE ORDERS</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="dessert()">DESSERTS</div>
+          </center>
+         </div>
+         <div class="menu-item">
+          <center>
+           <div class="menu-btn1 text-center" onclick="beverages()">BEVERAGES</div>
+          </center>
+         </div>
+       </div>
+       <div class="col-md-8">
+        <div class="food-descriptions">
+         <div class="empty-menu">
+          <h2 class="text-center">PLEASE CHECK OUT OUR SPECIAL FOR $5 FOOT LONG FOR WHATEVER</h2>
+         </div>
+         <div class="pizza">
+          <h1 class="text-center">PIZZA</h1>
+           <div class="image">
+            <center>
+              <img src="/img/pizza.jpg" alt="Pizza Menu">
+            </center>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">CHEESE</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(14") $9.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(16") $10.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(18") $11.99</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">PEPPERONI</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(14") $11.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(16") $12.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(18") $13.99</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">MEAT LOVERS</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(14") $13.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(16") $14.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(18") $15.99</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">VEGGIE</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(14") $12.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(16") $13.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(18") $14.49</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">BUFFALO CHICKEN</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(14") $12.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(16") $13.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(18") $14.49</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">BBQ CHICKEN</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(14") $12.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(16") $13.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(18") $14.99</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">PHILLY STEAK</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(14") $13.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(16") $14.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(18") $15.99</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+         </div>
+         <div class="calzone">
+          <h1 class="text-center">CALZONE</h1>
+           <div class="image">
+            <center>
+              <img src="/img/calzone.jpg" alt="Pizza Menu">
+            </center>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">CLASSIC CALZONE</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$6.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">VEGGIE</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$6.99</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">MEAT LOVERS</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$7.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">XPRESS STROMBOLI</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$7.99</h4>
+                </div>
+              </div>
+            </div>
+           </div>
+         </div>
+         <div class="wings">
+          <h1 class="text-center">WINGS</h1>
+           <div class="image">
+            <center>
+              <img src="/img/wings.jpg" alt="Pizza Menu">
+            </center>
+          </div>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">BONE IN</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(6 PIECES) $5.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(12 PIECES) $10.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(24 PIECES) $18.99</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">BONELESS</h4>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="text-center">(6 PIECES) $5.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(12 PIECES) $10.99</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <h4 class="text-center">(24 PIECES) $13.99</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+          <div class="xpress-phillies">
+           <h1 class="text-center">XPRESS PHILLIES</h1>
+           <div class="image">
+            <center>
+              <img src="/img/philly.jpg" alt="Pizza Menu">
+            </center>
+           </div>
+           <div class="description-prices">
+            <div class="menu1 row">
+              <div class="col-md-4">
+                <h4>STEAK & CHEESE</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $6.49</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $8.49</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu2 row">
+              <div class="col-md-4">
+                <h4>CHICKEN PHILLY</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $6.49</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $8.49</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu1 row">
+              <div class="col-md-4">
+                <h4>SHRIMP PHILLY</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $6.49</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $8.49</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu2 row">
+              <div class="col-md-4">
+                <h4>GYRO PHILLY</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $6.49</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $8.49</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>
+         <div class="burgers">
+          <h1 class="text-center">BURGERS</h1>
+           <div class="image">
+            <center>
+              <img src="/img/burgers.jpg" alt="Pizza Menu">
+            </center>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">XPRESS BURGERS</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$7.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">HALF POUND CHEESE BURGERS</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$6.49</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">PHILLY BURGERS</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$6.49</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">GRILLED CHICKEN SANDWICH</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">FRIED CHICKEN SANDWICH</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">FISH SANDWICH</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+            </div>
+           </div>
+         </div>
+         <div class="submarines">
+           <h1 class="text-center">SUBMARINES</h1>
+           <div class="image">
+            <center>
+              <img src="/img/subs.jpg" alt="Pizza Menu">
+            </center>
+           </div>
+           <div class="description-prices">
+            <div class="menu1 row">
+              <div class="col-md-4">
+                <h4>MEATBALL SUB</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $5.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $7.99</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu2 row">
+              <div class="col-md-4">
+                <h4>CHICKEN PARMESAN</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $5.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $7.99</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu1 row">
+              <div class="col-md-4">
+                <h4>CHICKEN STRIPS</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $5.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $7.99</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu2 row">
+              <div class="col-md-4">
+                <h4>KOSHER CUBAN</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $4.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $6.49</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu1 row">
+              <div class="col-md-4">
+                <h4>TURKEY & SWISS</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $4.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $6.49</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu2 row">
+              <div class="col-md-4">
+                <h4>TURKEY CLUB</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $4.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $6.49</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu1 row">
+              <div class="col-md-4">
+                <h4>BLT</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $4.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $6.49</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu2 row">
+              <div class="col-md-4">
+                <h4>ROASTED</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $5.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $7.99</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu1 row">
+              <div class="col-md-4">
+                <h4>PASTRAMI</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>(8") $5.99</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>(12") $7.99</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>
+         <div class="pita-wraps">
+          <h1 class="text-center">PITA AND WRAPS</h1>
+           <div class="image">
+            <center>
+              <img src="/img/wrap.jpg" alt="Pizza Menu">
+            </center>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">CHICKEN CHIPOTLE WRAPS</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$6.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">TURKEY CLUB WRAPS</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$6.99</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">GYRO</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$6.49</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-4">
+                  <h4 class="text-center">CHICKEN GYRO</h4>
+                </div>
+                <div class="col-md-8">
+                  <h4 class="text-center">$5.99</h4>
+                </div>
+              </div>
+            </div>
+           </div>
+         </div>
+         <div class="salads">
+          <h1 class="text-center">SALAD</h1>
+            <div class="image">
+             <center>
+              <img src="/img/salad.jpg" alt="Pizza Menu">
+             </center>
+            </div>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>GREEK SALAD</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$5.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-6">
+                  <h4>HOUSE SALAD</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>CAESAR SALAD</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+            </div>
+         </div>
+         <div class="sideOrders">
+          <h1 class="text-center">SIDE ORDERS</h1>
+            <div class="image">
+             <center>
+              <img src="/img/shrimp.jpg" alt="Pizza Menu">
+             </center>
+            </div>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>FRENCH FRIES</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$2.49</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-6">
+                  <h4>CHEESE FRIES</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$3.49</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>ONION RINGS</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$3.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-6">
+                  <h4>MOZARELLA STICKS</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$3.99</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>FRIED MUSHROOMS</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$3.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-6">
+                  <h4>GARLIC KNOTS</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$3.49</h4>
+                </div>
+              </div>
+               <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>CHEESE BREAD</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+               <div class="menu2 row">
+                <div class="col-md-6">
+                  <h4>CHICKEN STRIPS</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>1/2 SHRIMP</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$7.99</h4>
+                </div>
+              </div>
+            </div>
+         </div>
+         <div class="desserts">
+          <h1 class="text-center">DESSERTS</h1>
+            <div class="image">
+             <center>
+              <img src="/img/7.jpg" alt="Pizza Menu">
+             </center>
+            </div>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>RED VELVET CAKE</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$2.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-6">
+                  <h4>CHOCLATE MOUSSE</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$2.99</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>STRAWBERRY SWIRL CHEESECAKE</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$2.99</h4>
+                </div>
+              </div>
+            </div>
+         </div>
+         <div class="beverages">
+          <h1 class="text-center">BEVERAGES</h1>
+            <div class="image">
+             <center>
+              <img src="/img/drinks.jpg" alt="Pizza Menu">
+             </center>
+            </div>
+            <div class="description-prices">
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>CANS</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$5.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-6">
+                  <h4>BOTTLES</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+              <div class="menu1 row">
+                <div class="col-md-6">
+                  <h4>BOTTLES (2 Liters)</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+              <div class="menu2 row">
+                <div class="col-md-6">
+                  <h4>FOUNTAIN DRINKS</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="text-center">$4.99</h4>
+                </div>
+              </div>
+            </div>
+         </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container">
+      <h3 class="text-center">XPRESS PIZZA & SUBS</h3>
+      <h5 class="text-center">@ 2018</h5>
+    </div>
+  </section>
+  <script src="menu.js"></script>
+</body>
+</html>

@@ -30,7 +30,7 @@
 }
 
 #mainheader h1 {
-    font-size: 85px;
+    font-size: 65px;
 }
 
 .menu-btn {
@@ -56,111 +56,157 @@
     color: white;
   }
 
-  #slogan {
-      background-color: #EF5350;
-      color: white;
-      padding-top: 50px;
-      padding-bottom: 50px;
+  .menu-btn1 {
+    color: #B71C1C;
+    border: 2px solid #B71C1C;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: Ubuntu;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 ;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    width: 100%;
   }
 
-  #about {
-    font-family: Ubuntu;
+  .menu-btn1:hover {
+    box-shadow: inset 0 100px 0 0 #B71C1C;
     background-color: #B71C1C;
     color: white;
-}
+  }
 
-.about-exp {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+  .mainheader-btn {
+      padding: 10px;
+  }
 
-.aboutimg {
-    background-image: url('../img/burgerimg.jpeg');
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-size: auto;
-}
-
-.aboutimg2 {
-    background-image: url('../img/soda.jpeg');
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-size: auto;
-}
-
-.about2 {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
-}
-
-#menu-header {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: Ubuntu;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/salad.jpeg');
-    background-attachment: fixed;
-}
-
-#menu-header h1 {
-    font-weight: bolder;
-    color: white;
-}
-
-#menu h3 {
-    font-weight: bolder;
-    font-size: 40px;
-}
+  #about{
+      padding-top: 210px;
+      padding-bottom: 210px;
+      background-color: #B71C1C;
+      color: white;
+      font-family: Ubuntu;
+  }
 
   .image img {
-    width: 100%;
-}
+      width: 50%;
+  }
 
   #menu {
-      font-family: Ubuntu;
+      padding-top: 80px;
+      padding-bottom: 50px;
       color: #B71C1C;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      font-family: Ubuntu;
   }
-
 
   .menu-item {
-      color: white;
-      background-color: #B71C1C;
-      padding: 5px;
+      padding: 10px;
   }
 
-  .menu-container {
+  .description-prices {
       padding: 20px;
   }
 
-  @media screen and (max-width: 600px) {
-    .size {
-      visibility: hidden;
-      clear: both;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 28%;
+  .pizza {
       display: none;
-    }
   }
 
-  .map iframe {
-      width: 100%;
+  .calzone {
+      display: none;
+  }
+
+  .pita-wraps {
+      display: none;
+  }
+
+  .wings {
+      display: none;
+  }
+
+  .xpress-phillies {
+      display: none;
+  }
+
+  .burgers {
+      display: none;
+  }
+
+  .submarines {
+      display: none;
+  }
+
+  .salads {
+      display: none;
+  }
+
+  .sideOrders {
+      display: none;
+  }
+
+  .desserts {
+      display: none;
+  }
+
+  .beverages {
+      display: none;
+  }
+
+  .empty-menu {
+      padding: 40px;
+  }
+
+  .menu1 {
+      background-color: #B71C1C;
+      color: white;
+      padding: 10px;
+  }
+
+  .menu2 {
+      background-color: white;
+      color: #B71C1C;
+      padding: 10px;
   }
 
   #contact {
-      background-color: #FFEBEE;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      color: white;
+      background-color: #C62828;
+      font-family: Ubuntu;
   }
 
-.contact-container1 {
-    padding: 20px;
-    background-color: white;
-    color: #B71C1C;
+  .googlemap iframe{
+    width: 100%;
+  }
+
+  .contact-info {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  } 
+
+  .dropdown-btn-platform {
+    display: none;
+} 
+
+  @media only screen and (max-width: 600px) {
+    .menu-list{
+        display: none;
+    }
+    .dropdown-btn-platform {
+        display: block;
+    } 
 }
 
-  .contact-container2 {
+.food-description {
+    background-color: white;
+}
+
+  #footer{
       padding: 20px;
-      background-color: #B71C1C;
       color: white;
+      background-color: #EF5350;
+      font-family: Ubuntu;
   }
