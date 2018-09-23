@@ -10,6 +10,8 @@ function specials() {
     var beverages = document.querySelector('.beverages');
     var desserts = document.querySelector('.desserts');
     var sideorders = document.querySelector('.sideOrders');
+    var wings = document.querySelector('.wings');
+    wings.style.display = 'none';
     empty.style.display = 'block';
     pizzaShow.style.display = 'none';
     calzoneShow.style.display = 'none';
@@ -35,6 +37,8 @@ function pizza(){
     var beverages = document.querySelector('.beverages');
     var desserts = document.querySelector('.desserts');
     var sideorders = document.querySelector('.sideOrders');
+    var wings = document.querySelector('.wings');
+    wings.style.display = 'none';
     empty.style.display = 'none';
     pizzaShow.style.display = 'block';
     calzoneShow.style.display = 'none';
