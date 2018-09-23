@@ -15,23 +15,37 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </head>
 <body>
-  <section id="navbar">
-    <div class="container">
-      <div class="w3-left span">
-        <h6>XPRESS PIZZA AND SUBS</h6>
-      </div>
-      <div class="w3-small w3-right links">
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="index.html">HOME</a></li>
-          <li class="list-inline-item"><a href="menu.html">MENU</a></li>
-          <li class="list-inline-item"><a href="index.html #contact">CONTACT</a></li>
-        </ul>
-      </div>
-    </div>
-  </section> 
+    <section id="navbar">
+        <div class="container">
+          <div class="w3-left span">
+            <h6>XPRESS PIZZA AND SUBS</h6>
+          </div>
+          <div class="w3-small w3-right links">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <div class="link-container">
+                  <a href="index.html">HOME</a>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="link-container">
+                   <a href="menu.html">MENU</a>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="link-container">
+                  <a href="#contact">CONTACT</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section> 
+  <section id="menu-header">
+    <h1 class="page-header text-center display-4">MENU</h1>
+  </section>
   <section id="menu">
     <div class="container">
-      <h1 class="page-header text-center display-4">MENU</h1>
          <div class="dropdown-btn-platform">
                 <div class="btn-group">
                   <button type="button" class="btn btn-lg btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,7 +61,7 @@
                     <h4 class="dropdown-item" onclick="pita()">PITA</h4>
                     <h4 class="dropdown-item" onclick="salads()">SALADS</h4>
                     <h4 class="dropdown-item" onclick="sideOrders()">SIDE ORDERS</h4>
-                    <h4 class="dropdown-item" onclick="dessert()">DESSERT</h4>
+                    <h4 class="dropdown-item" onclick="desserts()">DESSERT</h4>
                     <h4 class="dropdown-item" onclick="beverages()">BEVERAGES</h4>
                 </div>
               </div>
@@ -56,60 +70,60 @@
        <div class="col-md-4 menu-list">
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="specials()">SPECIALS</div>
+           <div class="menu-btn2 text-center" onclick="specials()">SPECIALS</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="pizza()">PIZZA</div>
+           <div class="menu-btn2 text-center" onclick="pizza()">PIZZA</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="calzone()">CALZONES</div>
+           <div class="menu-btn2 text-center" onclick="calzone()">CALZONES</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="wings()">WINGS</div>
+           <div class="menu-btn2 text-center" onclick="wings()">WINGS</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="phillies()">XPRESS PHILLIES</div>
+           <div class="menu-btn2 text-center" onclick="phillies()">XPRESS PHILLIES</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="burgers()">BURGERS AND SANDWICHES</div>
+           <div class="menu-btn2 text-center" onclick="burgers()">BURGERS AND SANDWICHES</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="submarines()">SUBMARINE</div>
+           <div class="menu-btn2 text-center" onclick="submarines()">SUBMARINE</div>
           </center>
          </div><div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="pita()">PITAS & WRAPS</div>
+           <div class="menu-btn2 text-center" onclick="pita()">PITAS & WRAPS</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="salads()">SALADS</div>
+           <div class="menu-btn2 text-center" onclick="salads()">SALADS</div>
           </center>
          </div><div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="sideOrders()">SIDE ORDERS</div>
+           <div class="menu-btn2 text-center" onclick="sideOrders()">SIDE ORDERS</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="dessert()">DESSERTS</div>
+           <div class="menu-btn2 text-center" onclick="desserts()">DESSERTS</div>
           </center>
          </div>
          <div class="menu-item">
           <center>
-           <div class="menu-btn1 text-center" onclick="beverages()">BEVERAGES</div>
+           <div class="menu-btn2 text-center" onclick="beverages()">BEVERAGES</div>
           </center>
          </div>
        </div>
@@ -122,7 +136,7 @@
           <h1 class="text-center">PIZZA</h1>
            <div class="image">
             <center>
-              <img src="/img/pizza.jpg" alt="Pizza Menu">
+              <img src="img/pizza.jpg" alt="Pizza">
             </center>
             <div class="description-prices">
               <div class="menu1 row">
@@ -258,7 +272,7 @@
           <h1 class="text-center">CALZONE</h1>
            <div class="image">
             <center>
-              <img src="/img/calzone.jpg" alt="Pizza Menu">
+              <img src="img/calzone.jpg" alt="Calzone">
             </center>
             <div class="description-prices">
               <div class="menu1 row">
@@ -300,7 +314,7 @@
           <h1 class="text-center">WINGS</h1>
            <div class="image">
             <center>
-              <img src="/img/wings.jpg" alt="Pizza Menu">
+              <img src="img/wings.jpg" alt="wings">
             </center>
           </div>
             <div class="description-prices">
@@ -346,7 +360,7 @@
            <h1 class="text-center">XPRESS PHILLIES</h1>
            <div class="image">
             <center>
-              <img src="/img/philly.jpg" alt="Pizza Menu">
+              <img src="img/philly.jpg" alt="phillies">
             </center>
            </div>
            <div class="description-prices">
@@ -416,7 +430,7 @@
           <h1 class="text-center">BURGERS</h1>
            <div class="image">
             <center>
-              <img src="/img/burgers.jpg" alt="Pizza Menu">
+              <img src="img/burgers.jpg" alt="burgers">
             </center>
             <div class="description-prices">
               <div class="menu1 row">
@@ -474,7 +488,7 @@
            <h1 class="text-center">SUBMARINES</h1>
            <div class="image">
             <center>
-              <img src="/img/subs.jpg" alt="Pizza Menu">
+              <img src="img/subs.jpg" alt="submarines">
             </center>
            </div>
            <div class="description-prices">
@@ -619,7 +633,7 @@
           <h1 class="text-center">PITA AND WRAPS</h1>
            <div class="image">
             <center>
-              <img src="/img/wrap.jpg" alt="Pizza Menu">
+              <img src="img/wrap.jpg" alt="wraps">
             </center>
             <div class="description-prices">
               <div class="menu1 row">
@@ -661,7 +675,7 @@
           <h1 class="text-center">SALAD</h1>
             <div class="image">
              <center>
-              <img src="/img/salad.jpg" alt="Pizza Menu">
+              <img src="img/salad.jpg" alt="salads">
              </center>
             </div>
             <div class="description-prices">
@@ -695,7 +709,7 @@
           <h1 class="text-center">SIDE ORDERS</h1>
             <div class="image">
              <center>
-              <img src="/img/shrimp.jpg" alt="Pizza Menu">
+              <img src="img/shrimp.jpg" alt="sideorders">
              </center>
             </div>
             <div class="description-prices">
@@ -777,7 +791,7 @@
           <h1 class="text-center">DESSERTS</h1>
             <div class="image">
              <center>
-              <img src="/img/7.jpg" alt="Pizza Menu">
+              <img src="img/7.jpg" alt="Desserts">
              </center>
             </div>
             <div class="description-prices">
@@ -811,7 +825,7 @@
           <h1 class="text-center">BEVERAGES</h1>
             <div class="image">
              <center>
-              <img src="/img/drinks.jpg" alt="Pizza Menu">
+              <img src="img/drinks.jpg" alt="Beverages">
              </center>
             </div>
             <div class="description-prices">

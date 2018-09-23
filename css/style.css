@@ -16,12 +16,13 @@
     padding-bottom: 2px;
 }
 
-.links a {
+.link-container a{
     color: white;
+    text-decoration: none;
 }
 
 #mainheader {
-    padding-top: 320px;
+    padding-top: 280px;
     padding-bottom: 320px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizza.jpeg');
     color: white;
@@ -31,6 +32,15 @@
 
 #mainheader h1 {
     font-size: 65px;
+}
+
+#menu-header{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/menu.jpeg');
+    background-attachment: fixed;
+    color: white;
+    font-family: Ubuntu;
 }
 
 .menu-btn {
@@ -54,6 +64,30 @@
     box-shadow: inset 0 100px 0 0 #B71C1C;
     background-color: #B71C1C;
     color: white;
+  }
+
+  .menu-btn2 {
+    color: white;
+    border: 2px solid #B71C1C;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: Ubuntu;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 ;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    width: 100%;
+    background-color: #B71C1C;
+  }
+
+  .menu-btn2:hover {
+    box-shadow: inset 0 100px 0 0 #EF5350;
+    background-color: #B71C1C;
+    color: #ffffff;
   }
 
   .menu-btn1 {
@@ -183,8 +217,8 @@
   }
 
   .contact-info {
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-top: 60px;
+      padding-bottom: 60px;
   } 
 
   .dropdown-btn-platform {
