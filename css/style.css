@@ -42,6 +42,14 @@
     width: 100%;
 }
 
+.cater h2{
+    font-size: 45px;
+}
+
+.halalimage img {
+    width: 10%;
+}
+
 #menu-header{
     padding-top: 70px;
     padding-bottom: 70px;
