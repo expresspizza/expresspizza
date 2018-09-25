@@ -228,6 +228,11 @@
       font-family: Ubuntu;
   }
 
+  .googlemap {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
   .googlemap iframe{
     width: 100%;
   }
@@ -260,6 +265,10 @@
 
 .food-description {
     background-color: white;
+}
+
+.dessert-image img {
+    width: 30%;
 }
 
   #footer{
