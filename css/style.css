@@ -164,6 +164,10 @@
       display: none;
   }
 
+  .pizza-mobile {
+      display: none;
+  }
+
   .calzone {
       display: none;
   }
