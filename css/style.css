@@ -275,6 +275,11 @@
     width: 30%;
 }
 
+.slice {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
   #footer{
       padding: 20px;
       color: white;
